@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>main</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<picture><source srcset="img/logo.webp"type="image/webp"><img src="img/logo.png" alt=""></picture>
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="index.html#" class="menu__link">Главная</a></li>
+						</ul>
+						<ul class="menu__list">
+							<li class="menu__item"><a href="gallery.html#" class="menu__link">Услуги</a></li>
+						</ul>
+						<ul class="menu__list">
+							<li class="menu__item"><a href="home.html#" class="menu__link">Обучение</a></li>
+						</ul>
+						<ul class="menu__list">
+							<li class="menu__item"><a href="maps.html#" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__phone">
+					<a class="header__tel" href="tel:79224052545">+7 922 405 25 45</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="main">
+				<div class="main__bg">
+					<div class="main__image-ibg"><picture><source srcset="img/bg.webp"type="image/webp"><img src="img/bg.jpg" alt=""></picture></div>
+					<div class="main__image-title">SHARM</div>
+				</div>
+				<div class="main__container">
+					<div data-da=".main__block, 768" class="main__body">
+						<div class="main__title">Салон красоты</div>
+						<div class="main__text">Мы создаем настроение.</div>
+						<div class="main__btn">
+							<a data-popup="#popup" class="butoon" href="">Записаться</a>
+						</div>
+					</div>
+					<div class="main__image-title main__image-title_block">SHARM</div>
+					<div class="main__social social">
+						<div class="social__vk _icon-vk"></div>
+						<div class="social__instagram _icon-instagram"></div>
+						<div class="social__facebook _icon-facebook"></div>
+					</div>
+				</div>
+			</section>
+			<div class="main__container">
+				<div class="main__block"></div>
+			</div>
+			<section class="video">
+				<div class="video__container">
+					<div class="video__block">
+						<div class="video__title title">Добро пожаловать в наш салон</div>
+						<div data-showmore class="video__text video__text_gap">
+							<p class="video__par">Салон красоты «Шарм» — это пространство красоты и стиля! Наше кредо: создавать настроение.</p>
+							<p class="video__par">Наш салон предоставляет весь спектр самых популярных услуг — это визаж, уход за бровями </p>
+							<p data-showmore-content="1" class="video__par">Наш салон предоставляет весь спектр самых популярных услуг — это визаж, уход за бровями </p>
+							<button data-showmore-button="2" type="button" class="video__btn"><span>читать далее</span><span>Скыть</span></button>
+						</div>
+					</div>
+					<div class="video__body video__body_decor">
+						<iframe src="https://www.youtube.com/embed/_sFE2_JoEEw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="services__container">
+					<div class="section__title title">Услуги</div>
+					<div class="section__text text">Создай свой образ и стиль вместе с нами</div>
+					<div class="section__items">
+						<div class="section__card card-section">
+							<div class="card-section__image-ibg"><picture><source srcset="img/services/item1.webp"type="image/webp"><img src="img/services/item1.jpg" alt=""></picture></div>
+							<div class="card-section__text">Подробнее</div>
+							<div class="card-section__decor">Визаж</div>
+						</div>
+						<div class="section__card card-section">
+							<div class="card-section__image-ibg"><picture><source srcset="img/services/item2.webp"type="image/webp"><img src="img/services/item2.jpg" alt=""></picture></div>
+							<div class="card-section__text">Подробнее</div>
+							<div class="card-section__decor">Ногтевой сервис</div>
+						</div>
+						<div class="section__card card-section">
+							<div class="card-section__image-ibg"><picture><source srcset="img/services/item3.webp"type="image/webp"><img src="img/services/item3.jpg" alt=""></picture></div>
+							<div class="card-section__text">Подробнее</div>
+							<div class="card-section__decor">Массаж</div>
+						</div>
+						<div class="section__card card-section">
+							<div class="card-section__image-ibg"><picture><source srcset="img/services/item4.webp"type="image/webp"><img src="img/services/item4.jpg" alt=""></picture></div>
+							<div class="card-section__text">Подробнее</div>
+							<div class="card-section__decor">Солярий</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="beauty">
+				<div class="beauty__container">
+					<div class="beauty__block">
+						<div class="beauty__title title">Почему мы лучший салон</div>
+						<div class="beauty__list list-beauty">
+							<div class="list-beauty__item list-beauty__item_flex">
+								<div class="list-beauty__number">01</div>
+								<div class="list-beauty__text list-beauty__text_decor">косметика лучших мировых брендов - -Gehwol, OPI, Luxio, Reforma</div>
+							</div>
+							<div class="list-beauty__item list-beauty__item_flex">
+								<div class="list-beauty__number">02</div>
+								<div class="list-beauty__text list-beauty__text_decor">дезинфекция на уровне стоматологической клиники</div>
+							</div>
+							<div class="list-beauty__item list-beauty__item_flex">
+								<div class="list-beauty__number">03</div>
+								<div class="list-beauty__text list-beauty__text_decor">профессиональная команда сертифицированных мастеров</div>
+							</div>
+							<div class="list-beauty__item list-beauty__item_flex">
+								<div class="list-beauty__number">04</div>
+								<div class="list-beauty__text list-beauty__text_decor">индивидуальный подход к каждому клиенту</div>
+							</div>
+							<div class="list-beauty__decor"></div>
+						</div>
+					</div>
+					<div class="beauty__decor">BEAUTY</div>
+				</div>
+			</section>
+			<section class="master master_bg">
+				<div class="master__container">
+					<div class="master__block">
+						<div class="master__body">
+							<div class="master__title title">Мастера</div>
+							<div class="master__text text">Все наши специалисты имеют сертификаты и дипломы </div>
+						</div>
+						<div data-da=".block__arrow,992,2" class="master__dotts dotts-master">
+							<div class="dotts-master__prev _icon-arrow-left"></div>
+							<div class="dotts-master__number number-dotts-master">
+								<span class="number-dotts-master__activ">0</span> / <span class="number-dotts-master__all">0</span>
+							</div>
+							<div class="dotts-master__next _icon-arrow-right"></div>
+						</div>
+					</div>
+					<div class="master__slider">
+						<div class="master__swiper">
+							<div class="master__slide slide-master">
+								<div class="slide-master__img">
+									<a href="" class="slide-master__image-ibg slide-master__image-ibg_big"><picture><source srcset="img/master/item1.webp"type="image/webp"><img src="img/master/item1.jpg" alt=""></picture></a>
+									<div class="slide-master__info info-slide-master">
+										<div class="info-slide-master__title">Образование </div>
+										<div class="info-slide-master__text">Школа красоты «Шарм», Ржевская академия искусства и культуры</div>
+										<div class="info-slide-master__experience">Опыт работы </div>
+										<div class="info-slide-master__year">5 лет </div>
+									</div>
+								</div>
+								<div class="slide-master__name">Светлана Параманова</div>
+								<div class="slide-master__text">мастер ногтевого сервиса</div>
+							</div>
+							<div class="master__slide slide-master">
+								<div class="slide-master__img">
+									<a href="" class="slide-master__image-ibg slide-master__image-ibg_big"><picture><source srcset="img/master/item2.webp"type="image/webp"><img src="img/master/item2.jpg" alt=""></picture></a>
+									<div class="slide-master__info info-slide-master">
+										<div class="info-slide-master__title">Образование </div>
+										<div class="info-slide-master__text">Школа красоты «Шарм», Ржевская академия искусства и культуры</div>
+										<div class="info-slide-master__experience">Опыт работы </div>
+										<div class="info-slide-master__year">5 лет </div>
+									</div>
+								</div>
+								<div class="slide-master__name">Ирина Савельева</div>
+								<div class="slide-master__text">мастер-бровист</div>
+							</div>
+							<div class="master__slide slide-master">
+								<div class="slide-master__img">
+									<a href="" class="slide-master__image-ibg slide-master__image-ibg_big"><picture><source srcset="img/master/item3.webp"type="image/webp"><img src="img/master/item3.jpg" alt=""></picture></a>
+									<div class="slide-master__info info-slide-master">
+										<div class="info-slide-master__title">Образование </div>
+										<div class="info-slide-master__text">Школа красоты «Шарм», Ржевская академия искусства и культуры</div>
+										<div class="info-slide-master__experience">Опыт работы </div>
+										<div class="info-slide-master__year">5 лет </div>
+									</div>
+								</div>
+								<div class="slide-master__name">Елена Александрова</div>
+								<div class="slide-master__text">мастер-визажист</div>
+							</div>
+							<div class="master__slide slide-master">
+								<div class="slide-master__img">
+									<a href="" class="slide-master__image-ibg slide-master__image-ibg_big"><picture><source srcset="img/master/item4.webp"type="image/webp"><img src="img/master/item4.jpg" alt=""></picture></a>
+									<div class="slide-master__info info-slide-master">
+										<div class="info-slide-master__title">Образование </div>
+										<div class="info-slide-master__text">Школа красоты «Шарм», Ржевская академия искусства и культуры</div>
+										<div class="info-slide-master__experience">Опыт работы </div>
+										<div class="info-slide-master__year">5 лет </div>
+									</div>
+								</div>
+								<div class="slide-master__name">Светлана Параманова</div>
+								<div class="slide-master__text">мастер ногтевого сервиса</div>
+							</div>
+							<div class="master__slide slide-master">
+								<div class="slide-master__img">
+									<a href="" class="slide-master__image-ibg slide-master__image-ibg_big"><picture><source srcset="img/master/item2.webp"type="image/webp"><img src="img/master/item2.jpg" alt=""></picture></a>
+									<div class="slide-master__info info-slide-master">
+										<div class="info-slide-master__title">Образование </div>
+										<div class="info-slide-master__text">Школа красоты «Шарм», Ржевская академия искусства и культуры</div>
+										<div class="info-slide-master__experience">Опыт работы </div>
+										<div class="info-slide-master__year">5 лет </div>
+									</div>
+								</div>
+								<div class="slide-master__name">Ирина Савельева</div>
+								<div class="slide-master__text">мастер-бровист</div>
+							</div>
+							<div class="master__slide slide-master">
+								<div class="slide-master__img">
+									<a href="" class="slide-master__image-ibg slide-master__image-ibg_big"><picture><source srcset="img/master/item3.webp"type="image/webp"><img src="img/master/item3.jpg" alt=""></picture></a>
+									<div class="slide-master__info info-slide-master">
+										<div class="info-slide-master__title">Образование </div>
+										<div class="info-slide-master__text">Школа красоты «Шарм», Ржевская академия искусства и культуры</div>
+										<div class="info-slide-master__experience">Опыт работы </div>
+										<div class="info-slide-master__year">5 лет </div>
+									</div>
+								</div>
+								<div class="slide-master__name">Елена Александрова</div>
+								<div class="slide-master__text">мастер-визажист</div>
+							</div>
+						</div>
+						<div class="block__arrow"></div>
+					</div>
+				</div>
+			</section>
+			<section class="feedback">
+				<div class="feedback__container">
+					<div class="feedback__block">
+						<div class="feedback__body">
+							<div class="feedback__title title">Отзывы </div>
+							<div class="feedback__text text">Мы каждый день поплняем ряды своих клиентов</div>
+						</div>
+						<div class="feedback__dotts">
+							<div class="feedback__prev _icon-arrow-left"></div>
+							<div class="feedback__number">
+								<span class="feedback__activ">0</span> / <span class="feedback__all">0</span>
+							</div>
+							<div class="feedback__next _icon-arrow-right"></div>
+						</div>
+					</div>
+					<div class="feedback__slider">
+						<div class="feedback__swiper">
+							<div class="feedback__slide slide-feedback">
+								<div class="slide-feedback__wrapper">
+									<div class="slide-feedback__image-ibg"><picture><source srcset="img/feedback/item1.webp"type="image/webp"><img src="img/feedback/item1.jpg" alt="foto"></picture></div>
+									<div data-showmore class="slide-feedback__body">
+										<div class="slide-feedback__name _icon-vk">Елена Александрова</div>
+										<div class="slide-feedback__text">В этом салоне была ни раз, теперь выбираю только его. Нравиться подход к клиенту, приветливый персонал, расслабляющая атмосфера. Я вибираю только “Шарм” и всем советую.</div>
+										<div data-showmore-content="2" class="slide-feedback__text">В этом салоне была ни раз, теперь выбираю только его. Нравиться подход к клиенту, приветливый персонал, расслабляющая атмосфера. Я вибираю только “Шарм” и всем советую.</div>
+										<button data-showmore-button=3 type="button" class="block__more"><span>читать далее</span><span>Скыть</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="feedback__slide slide-feedback">
+								<div class="slide-feedback__wrapper">
+									<div class="slide-feedback__image-ibg"><picture><source srcset="img/feedback/item3.webp"type="image/webp"><img src="img/feedback/item3.jpg" alt="foto"></picture></div>
+									<div data-showmore class="slide-feedback__body">
+										<div class="slide-feedback__name _icon-vk">Елена Александрова</div>
+										<div class="slide-feedback__text">В этом салоне была ни раз, теперь выбираю только его. Нравиться подход к клиенту, приветливый персонал, расслабляющая атмосфера. Я вибираю только “Шарм” и всем советую.</div>
+										<div data-showmore-content="2" class="slide-feedback__text">В этом салоне была ни раз, теперь выбираю только его. Нравиться подход к клиенту, приветливый персонал, расслабляющая атмосфера. Я вибираю только “Шарм” и всем советую.</div>
+										<button data-showmore-button=3 type="button" class="block__more"><span>читать далее</span><span>Скыть</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="feedback__slide slide-feedback">
+								<div class="slide-feedback__wrapper">
+									<div class="slide-feedback__image-ibg"><picture><source srcset="img/feedback/item4.webp"type="image/webp"><img src="img/feedback/item4.jpg" alt="foto"></picture></div>
+									<div data-showmore class="slide-feedback__body">
+										<div class="slide-feedback__name _icon-vk">Светлана Параманова</div>
+										<div class="slide-feedback__text">В этом салоне была ни раз, теперь выбираю только его. Нравиться подход к клиенту, приветливый персонал, расслабляющая атмосфера. Я вибираю только “Шарм” и всем советую.</div>
+										<div data-showmore-content="2" class="slide-feedback__text">В этом салоне была ни раз, теперь выбираю только его. Нравиться подход к клиенту, приветливый персонал, расслабляющая атмосфера. Я вибираю только “Шарм” и всем советую.</div>
+										<button data-showmore-button=3 type="button" class="block__more"><span>читать далее</span><span>Скыть</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+	</section>
+	<section class="networks networks_decor">
+		<div class="networks__container">
+			<div class="networks__block">
+				<div class="networks__header">
+					<div class="networks__title title">Мы в Instagram</div>
+					<div class="networks__text text">Подписывайтесь на наши новости </div>
+				</div>
+				<div data-da=".networks__info, 768" class="networks__instagram _icon-instagram">Подписаться</div>
+			</div>
+			<div class="networks__items">
+				<div class="networks__item item-networks">
+					<a class="item-networks__link" href="#"><picture><source srcset="img/networks/item1.webp"type="image/webp"><img class="item-networks__img" src="img/networks/item1.jpg" alt="foto"></picture></a>
+					<a class="item-networks__decor" href="#">Перейти</a>
+				</div>
+				<div class="networks__item item-networks">
+					<a class="item-networks__link" href="#"><picture><source srcset="img/networks/item2.webp"type="image/webp"><img class="item-networks__img" src="img/networks/item2.jpg" alt="foto"></picture></a>
+					<a class="item-networks__decor" href="#">Перейти</a>
+				</div>
+				<div class="networks__item item-networks">
+					<a class="item-networks__link" href="#"><picture><source srcset="img/networks/item3.webp"type="image/webp"><img class="item-networks__img" src="img/networks/item3.jpg" alt="foto"></picture></a>
+					<a class="item-networks__decor" href="#">Перейти</a>
+				</div>
+				<div class="networks__item item-networks">
+					<a class="item-networks__link" href="#"><picture><source srcset="img/networks/item4.webp"type="image/webp"><img class="item-networks__img" src="img/networks/item4.jpg" alt="foto"></picture></a>
+					<a class="item-networks__decor" href="#">Перейти</a>
+				</div>
+				<div class="networks__item item-networks">
+					<a class="item-networks__link" href="#"><picture><source srcset="img/networks/item5.webp"type="image/webp"><img class="item-networks__img" src="img/networks/item5.jpg" alt="foto"></picture></a>
+					<a class="item-networks__decor" href="#">Перейти</a>
+				</div>
+				<div class="networks__item item-networks">
+					<a class="item-networks__link" href="#"><picture><source srcset="img/networks/item6.webp"type="image/webp"><img class="item-networks__img" src="img/networks/item6.jpg" alt="foto"></picture></a>
+					<a class="item-networks__decor" href="#">Перейти</a>
+				</div>
+				<div class="networks__item item-networks">
+					<a class="item-networks__link" href="#"><picture><source srcset="img/networks/item7.webp"type="image/webp"><img class="item-networks__img" src="img/networks/item7.jpg" alt="foto"></picture></a>
+					<a class="item-networks__decor" href="#">Перейти</a>
+				</div>
+				<div class="networks__item item-networks">
+					<a class="item-networks__link" href="#"><picture><source srcset="img/networks/item8.webp"type="image/webp"><img class="item-networks__img" src="img/networks/item8.jpg" alt="foto"></picture></a>
+					<a class="item-networks__decor" href="#">Перейти</a>
+				</div>
+			</div>
+			<div class="networks__info"></div>
+		</div>
+	</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__body">
+			<div class="footer__container">
+				<form class="footer__form form" action="#">
+					<div class="form__title title">Онлайн запись</div>
+					<div class="form__text text">заполните фору для записи в салон</div>
+					<div class="form__body">
+						<div class="form__imput">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="input">
+						</div>
+						<div class="form__imput">
+							<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Телефон" class="input">
+						</div>
+						<div class="form__imput">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Услуга" class="input">
+						</div>
+						<div class="form__flex">
+							<div class="form__checkbox checkbox">
+								<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_1" class="checkbox__label"><span class="checkbox__text">Даю согласие на обработку
+										персональных данных</span></label>
+							</div>
+							<div class="form__btn">
+								<a class="bottom" href="#">Отправить</a>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer__menu menu-footer">
+			<div class="menu-footer__container">
+				<div class="menu-footer__item"></div>
+				<div class="menu-footer__body body-menu">
+					<div class="body-menu__img"><picture><source srcset="img/logo-footer.webp"type="image/webp"><img src="img/logo-footer.png" alt=""></picture></div>
+					<div data-da=".menu-footer__item, 992" class="body-menu__menu ">
+						<nav class="body-menu__body">
+							<ul class="body-menu__list">
+								<li class="body-menu__item"><a href="index.html#" class="body-menu__link menu__link">Главная</a></li>
+							</ul>
+							<ul class="body-menu__list">
+								<li class="body-menu__item"><a href="gallery.html#" class="body-menu__link menu__link">Услуги</a></li>
+							</ul>
+							<ul class="body-menu__list">
+								<li class="body-menu__item"><a href="home.html#" class="body-menu__link menu__link">Обучение</a></li>
+							</ul>
+							<ul class="body-menu__list">
+								<li class="body-menu__item"><a href="maps.html#" class="body-menu__link menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="body-menu__phone phone-body-menu">
+						<a class="phone-body-menu__tel" href="tel:79224052545">+7 922 405 25 45</a>
+						<div class="phone-body-menu__text">Ежедневно с 10:00 до 20:00</div>
+					</div>
+				</div>
+				<div class="menu-footer__information">@ 2020 SHARM Beauty studio Все права защищены</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<form data-dev class="footer__form form form_bg" action="#">
+						<div class="form__title title">Онлайн запись</div>
+						<div class="form__text text">заполните фору для записи в салон</div>
+						<div class="form__body">
+							<div class="form__imput">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="input">
+							</div>
+							<div class="form__imput">
+								<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Телефон" class="input">
+							</div>
+							<div class="form__imput">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Услуга" class="input">
+							</div>
+							<div class="form__flex">
+								<div class="form__checkbox checkbox">
+									<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label checked for="c_1" class="checkbox__label"><span class="checkbox__text">Даю согласие на обработку
+											персональных данных</span></label>
+								</div>
+								<div class="form__btn">
+									<a class="bottom" href="#">Отправить</a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-new" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="popup__block block-popup">
+						<div class="block-popup__titles">
+							<div class="block-popup__title">Комби маникюр </div>
+							<div data-da=".spollers__title, 992" class="block-popup__subtitle">программа курса</div>
+							<a data-popup="#popup" class="block-popup__btn butoon" href="">Записаться</a>
+
+						</div>
+						<ul data-da=".spollers__body, 992" class="block-popup__lists">
+							<li class="block-popup__list">правило организации рабочего места;</li>
+							<li class="block-popup__list">правила общения мастера и клиента;</li>
+							<li class="block-popup__list">дезинфекция и стерилизация инструментов;</li>
+							<li class="block-popup__list">строение ногтевой пластины;</li>
+							<li class="block-popup__list">архитектура и выравнивание нп;</li>
+							<li class="block-popup__list">классификация фрез,подбор ножниц;</li>
+							<li class="block-popup__list">техника снятия гель лака;</li>
+							<li class="block-popup__list">секреты идеального покрытия;</li>
+							<li class="block-popup__list">секреты идеальных бликов;</li>
+							<li class="block-popup__list">отработка на тренировочных руках</li>
+							<li class="block-popup__list">отработка на моделях;</li>
+							<li class="block-popup__list">тестирование.</li>
+						</ul>
+						<div data-spollers class="spollers">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"></button>
+								<div class="spollers__body"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20220206122808"></script>
+</body>
+
+</html>
